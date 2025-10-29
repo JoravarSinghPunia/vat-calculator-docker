@@ -1,18 +1,25 @@
 .field {
   width: 300px;
   padding-bottom: 20px;
+  margin: 0 auto;
 }
 
 .colour-border {
   border: 4px dashed navy;
   padding: 10px;
+  margin: 0 auto;
+  max-width: fit-content;
 }
 
 .header {
   padding: 10px;
+  text-align: center;
 }
 
 body {
   padding: 10px;
   background-color: paleturquoise;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
